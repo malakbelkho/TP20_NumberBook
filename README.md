@@ -90,22 +90,23 @@ L’application fonctionne selon ce scénario :
 ## Captures du backend et de la base de données:
 
 <p align="center">
-  <img src="screenshots/xampp-running.png" width="48%" alt="XAMPP Apache MySQL running"/>
-  <img src="screenshots/create-database.png" width="48%" alt="Création de la base numberbook"/>
+  <img src="./screenshots/xampp-running.png" width="48%" alt="XAMPP Apache MySQL running"/>
+  <img src="./screenshots/create-database.png" width="48%" alt="Création de la base numberbook"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/contact-table-empty.png" width="48%" alt="Table contact vide"/>
-  <img src="screenshots/api-root.png" width="48%" alt="Dossier numberbook-api"/>
+  <img src="./screenshots/contact-table-empty.png" width="48%" alt="Table contact vide"/>
+  <img src="./screenshots/api-root.png" width="48%" alt="Dossier numberbook-api"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/api-folder.png" width="48%" alt="Dossier api"/>
-  <img src="screenshots/config-folder.png" width="48%" alt="Dossier config"/>
+  <img src="./screenshots/api-folder.png" width="48%" alt="Dossier api"/>
+  <img src="./screenshots/config-folder.png" width="48%" alt="Dossier config"/>
 </p>
 
 <p align="center">
-  <img src="screenshots/repository-folder.png" width="48%" alt="Dossier repository"/>
+  <img src="./screenshots/repository-folder.png" width="48%" alt="Dossier repository"/>
+  <img src="./screenshots/rest-client-insert.png" width="90%" alt="Insertion avec REST Client"/>
 </p>
 
 ## Structure du projet Android:
