@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aura_bg_top">#24114D</color>
+    <color name="aura_bg_mid">#4931A8</color>
+    <color name="aura_bg_bottom">#11B5A4</color>
+
+    <color name="aura_card">#F9F7FF</color>
+    <color name="aura_card_stroke">#D8CCFF</color>
+
+    <color name="aura_primary">#7C3AED</color>
+    <color name="aura_primary_dark">#4C1D95</color>
+    <color name="aura_secondary">#06B6D4</color>
+    <color name="aura_pink">#EC4899</color>
+
+    <color name="aura_text_dark">#1E1B4B</color>
+    <color name="aura_text_soft">#6B7280</color>
+    <color name="aura_white">#FFFFFF</color>
+</resources>
