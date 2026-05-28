@@ -493,30 +493,32 @@ Résultat attendu si la base est vide :
 []
 ```
 
-### Test 6 — Insertion avec Postman
+## Test 6 — Insertion avec REST Client
 
-Méthode :
+Pour tester l’insertion d’un contact dans la base de données, l’extension Chrome **REST Client** a été utilisée.
+
+Méthode utilisée :
 
 ```txt
 POST
 ```
 
-URL :
+URL utilisée :
 
 ```txt
 http://localhost/numberbook-api/api/insertContact.php
 ```
 
-Body JSON :
+Corps de la requête au format JSON :
 
 ```json
 {
-  "name": "Malak Test",
+  "name": "TEEEESTTT",
   "phone": "+212600000000"
 }
 ```
 
-Résultat attendu :
+Résultat obtenu :
 
 ```json
 {
@@ -524,6 +526,12 @@ Résultat attendu :
   "message": "Contact enregistré"
 }
 ```
+
+Ce résultat confirme que l’API `insertContact.php` reçoit correctement les données JSON envoyées par le client REST, puis les insère dans la table `contact` de la base MySQL.
+
+<p align="center">
+  <img src="screenshots/rest-client-insert.png" width="90%" alt="Test insertion contact avec REST Client"/>
+</p>
 
 ### Test 7 — Recherche distante
 
@@ -613,7 +621,7 @@ Base MySQL phpMyAdmin
 
 Pour tester le chargement local, il faut ajouter un contact dans l’application Contacts de l’émulateur.
 
-Pour tester la recherche distante, on peut insérer un contact dans phpMyAdmin ou avec Postman.
+Pour tester la recherche distante, on peut insérer un contact dans phpMyAdmin ou avec REST Client.
 
 ## Problèmes rencontrés:
 
