@@ -90,27 +90,26 @@ L’application fonctionne selon ce scénario :
 ## Captures du backend et de la base de données:
 
 <p align="center">
-  <img src="./screenshots/xampp-running.png" width="48%" alt="XAMPP Apache MySQL running">
-  <img src="./screenshots/create-database.png" width="48%" alt="Création de la base numberbook">
+  <img width="48%" alt="XAMPP Apache MySQL running" src="https://github.com/user-attachments/assets/6c87819e-ca97-42a7-9e21-9520a805ea2d" />
+<img width="48%" alt="Création de la base numberbook" src="https://github.com/user-attachments/assets/cba360ce-e50a-4ce6-8790-e7386ccbe626" />
+</p>
+
+
+<p align="center">
+  <img width="48%" alt="Table contact vide" src="https://github.com/user-attachments/assets/bf56d5df-56a6-4727-a611-a4d33ef95e6d" />
+  <img width="48%" alt="Dossier numberbook-api" src="https://github.com/user-attachments/assets/35635d39-fc5c-40e5-8ae1-665db7a200af" />
 </p>
 
 <p align="center">
-  <img src="./screenshots/contact-table-empty.png" width="48%" alt="Table contact vide">
-  <img src="./screenshots/api-root.png" width="48%" alt="Dossier numberbook-api">
+  <img width="48%" alt="Dossier api" src="https://github.com/user-attachments/assets/aac5c5dc-cc69-4579-9895-50d85d64c4f0" />
+  <img width="48%" alt="Dossier config" src="https://github.com/user-attachments/assets/d2ba8c11-b4fe-431c-b81e-ab2b23f92d22" />
 </p>
 
 <p align="center">
-  <img src="./screenshots/api-folder.png" width="48%" alt="Dossier api">
-  <img src="./screenshots/config-folder.png" width="48%" alt="Dossier config">
+  <img width="48%" alt="Dossier repository" src="https://github.com/user-attachments/assets/b51db1ef-d5ee-48b2-8b97-da5aedb1047f" />
 </p>
 
-<p align="center">
-  <img src="./screenshots/repository-folder.png" width="48%" alt="Dossier repository">
-</p>
 
-<p align="center">
-  <img src="./screenshots/rest-client-insert.png" width="90%" alt="Insertion d'un contact avec REST Client">
-</p>
 
 ## Structure du projet Android:
 
@@ -534,7 +533,7 @@ Résultat obtenu :
 Ce résultat confirme que l’API `insertContact.php` reçoit correctement les données JSON envoyées par le client REST, puis les insère dans la table `contact` de la base MySQL.
 
 <p align="center">
-  <img src="screenshots/rest-client-insert.png" width="90%" alt="Test insertion contact avec REST Client"/>
+  <img width="90%" alt="Test insertion contact avec REST Client" src="https://github.com/user-attachments/assets/c78519e4-4767-4f3e-b9e2-81e152c33fec" />
 </p>
 
 ### Test 7 — Recherche distante
